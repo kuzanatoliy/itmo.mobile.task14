@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ru.kuzmiankou.database2.ShowActivity"
+    tools:showIn="@layout/activity_show">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:text="@string/first_name"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/first_name"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:text="@string/last_name"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/last_name"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:text="@string/phone"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/phone"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:text="@string/email"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/email"/>
+
+    </TableRow>
+
+</TableLayout>
